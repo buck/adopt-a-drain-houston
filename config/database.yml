@@ -11,11 +11,11 @@ development: &DEVELOPMENT
 # Do not set this db to the same as development or production.
 test:
   <<: *DEVELOPMENT
-  database: adopt_a_thing_test
+  database: adopt_a_drain_test
 
 staging: # read from DATABASE_URL
 
 production: # read from DATABASE_URL
   <<: *DEVELOPMENT
-  database: adopt_a_thing_production
+  database: adopt_a_drain_production
   
